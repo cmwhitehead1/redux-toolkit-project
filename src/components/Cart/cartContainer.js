@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { calculateTotal } from "../../../features/cart/cartSlice";
-import { openModal } from "../../../features/modal/modalSlice";
+import { calculateTotal } from "../../features/cart/cartSlice";
+import { openModal } from "../../features/modal/modalSlice";
 import CartItem from './cartItem';
 
 

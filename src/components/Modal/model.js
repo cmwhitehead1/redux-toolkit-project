@@ -1,7 +1,7 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { clearCart } from "../../../features/cart/cartSlice";
-import { closeModal } from "../../../features/modal/modalSlice";
+import { clearCart } from "../../features/cart/cartSlice";
+import { closeModal } from "../../features/modal/modalSlice";
 
 const Modal = () => {
 

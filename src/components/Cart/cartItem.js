@@ -1,6 +1,6 @@
 import React from "react";
-import { ChevronDown, ChevronUp } from "../Icons/icons";
-import { removeItem, increaseCount, decreaseCount } from "../../../features/cart/cartSlice";
+import { ChevronDown, ChevronUp } from "../../assets/icons";
+import { removeItem, increaseCount, decreaseCount } from "../../features/cart/cartSlice";
 import { useDispatch } from "react-redux";
 
 const CartItem = ({ id, title, price, img, amount }) => {

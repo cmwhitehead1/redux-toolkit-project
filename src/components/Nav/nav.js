@@ -1,6 +1,6 @@
 import React from "react";
-import { CartIcon } from "../Icons/icons";
 import { useSelector } from "react-redux";
+import { CartIcon } from "../../assets/icons";
 
 const Navigation = () => {
 

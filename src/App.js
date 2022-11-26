@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import Modal from "./components/ui/Modal/model";
-import Navigation from "./components/ui/Nav/nav";
-import CartContainer from "./components/ui/Cart/cartContainer";
+import Modal from "./components/Modal/model";
+import Navigation from "./components/Nav/nav";
+import CartContainer from "./components/Cart/cartContainer";
 import { useDispatch, useSelector } from "react-redux";
 import getCartItems from "./data/fetch";
 
